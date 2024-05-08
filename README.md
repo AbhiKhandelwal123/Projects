@@ -1,17 +1,12 @@
-Certainly! Below is a basic README file template for an AWS LAMP stack project. This assumes you're setting up a Linux, Apache, MySQL, and PHP environment on AWS EC2. Adjustments may be needed based on your specific project requirements.
-
-```
+Below is a basic README file template for an AWS LAMP stack project. This assumes you're setting up a Linux, Apache, MySQL, and PHP environment on AWS EC2.
 # AWS LAMP Stack Project README
-
 ## Overview
 This project aims to set up a LAMP (Linux, Apache, MySQL, PHP) stack on AWS EC2 instance. This README provides a step-by-step guide on how to configure and deploy the LAMP stack.
 
 ## Prerequisites
 Before proceeding, ensure you have the following:
 - An AWS account
-- Basic knowledge of AWS services
-- Access to the AWS Management Console
-- An SSH client for connecting to your EC2 instance (e.g., PuTTY for Windows, SSH for Unix-based systems)
+- Access to the AWS Management Console through IAM user
 
 ## Steps to Deploy
 1. **Launch an EC2 Instance:**
@@ -22,7 +17,7 @@ Before proceeding, ensure you have the following:
 
 2. **Connect to Your EC2 Instance:**
    - Obtain the public IP address of your EC2 instance from the EC2 dashboard.
-   - Use your SSH client to connect to the instance:
+   - Use your terminal to connect to the instance:
      ```
      ssh -i your-key.pem ec2-user@your-ec2-public-ip
      ```
