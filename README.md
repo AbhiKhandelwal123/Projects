@@ -1,3 +1,1 @@
-
-why i am empty
-lolllll
+bhaad me jae sab 
